@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ToDoAPI.Application\ToDoAPI.Application.csproj" />
     <ProjectReference Include="..\ToDoAPI.Infraestructure\ToDoAPI.Infraestructure.csproj" />
   </ItemGroup>
