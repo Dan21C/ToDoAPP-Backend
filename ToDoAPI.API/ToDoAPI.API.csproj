@@ -10,4 +10,13 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoAPI.Application\ToDoAPI.Application.csproj" />
+    <ProjectReference Include="..\ToDoAPI.Infraestructure\ToDoAPI.Infraestructure.csproj" />
+  </ItemGroup>
+
 </Project>
