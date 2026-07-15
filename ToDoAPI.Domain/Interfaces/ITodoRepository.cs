@@ -4,7 +4,7 @@ namespace ToDoAPI.Domain.Interfaces;
 
 public interface ITodoRepository
 {
-    Task<IEnumerable<Todo>> GetAllTodosAsync();
+    Task<IEnumerable<Todo>> GetAllAsync();
     Task<Todo?> GetByIdAsync(int id);
     Task<Todo> AddAsync(Todo todo);
     Task<Todo?> UpdateAsync(Todo todo);
